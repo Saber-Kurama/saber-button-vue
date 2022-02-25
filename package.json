@@ -1,6 +1,6 @@
 {
   "name": "@dangojs/saber-button-vue-test",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "vue 组件的测试",
   "keywords": [
     "vue",
@@ -28,10 +28,7 @@
     "preview": "arco preview"
   },
   "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
+    
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx,vue}": [
