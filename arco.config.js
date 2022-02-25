@@ -1,3 +1,10 @@
+/*
+ * @Author: saber
+ * @Date: 2022-02-25 15:19:31
+ * @LastEditTime: 2022-02-25 17:21:36
+ * @LastEditors: saber
+ * @Description:
+ */
 module.exports = {
   // globs to your packages
   // e.g. [ 'packages/*' ]
@@ -9,7 +16,7 @@ module.exports = {
   },
   // initial meta for 'arco generate'
   initialMeta: {
-    group: 0,
+    group: 73,
   },
   // path of arco block insertion, relative to /src ('myPath' will be resolved as '/src/myPath')
   // pathBlockInsert: 'pathRelativeToSrc',

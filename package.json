@@ -94,6 +94,10 @@
       "数据展示"
     ]
   },
+  "publishConfig": {
+    "registry": "",
+    "access": "public"
+  },
   "files": [
     "dist",
     "docs"
