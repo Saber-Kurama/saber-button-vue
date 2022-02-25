@@ -1,0 +1,23 @@
+{
+  "name": "@dangojs/saber-button-vue-test",
+  "title": "vue 组件的测试",
+  "description": "vue 组件的测试",
+  "type": "vue-component",
+  "category": [
+    "数据展示"
+  ],
+  "group": 73,
+  "homepage": "",
+  "repository": "",
+  "author": "Saber-Kurama",
+  "screenshot": "",
+  "package": {
+    "name": "@dangojs/saber-button-vue-test",
+    "version": "latest",
+    "type": "npm",
+    "registry": "",
+    "peerDependencies": [
+      "vue"
+    ]
+  }
+}
