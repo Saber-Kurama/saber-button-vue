@@ -15,19 +15,35 @@ import { Button, Tooltip } from '@arco-design/web-vue';
 
 export default defineComponent({
   name: 'TooltipButton',
-  components: {
-    ArcoButton: Button,
-    Tooltip,
-  },
-  props: {
-    /**
-     * 提示文字
-     */
-    tip: String,
-    /**
-     * 按钮组件Props
-     */
-    buttonProps: Object,
-  },
+  // components: {
+  //   ArcoButton: Button,
+  //   Tooltip,
+  // },
+  // props: {
+  //   /**
+  //    * 提示文字
+  //    */
+  //   tip: String,
+  //   /**
+  //    * 按钮组件Props
+  //    */
+  //   buttonProps: Object,
+  // },
 });
+</script>
+<script setup lang="ts">
+const props = defineProps<{
+  /**
+   * @en 提示文字 
+   * @zh 提示文字 11 
+   */
+  tip: string
+}>()
+const emits = defineEmits<{
+  /**
+   * 
+   * @zh change 事件 
+   */
+  (event: 'change'): void
+}>()
 </script>
